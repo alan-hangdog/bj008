@@ -1,36 +1,36 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568258509331" stop="1568258509452">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568259019208" stop="1568259019279">
   <name>test01</name>
   <labels/>
   <test-cases>
-    <test-case start="1568258509331" status="passed" stop="1568258509356">
+    <test-case start="1568259019208" status="passed" stop="1568259019212">
       <name>Test.test001</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3092-MainThread"/>
+        <label name="thread" value="308-MainThread"/>
         <label name="host" value="LAPTOP-MME9N47P"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1568258509365" status="passed" stop="1568258509367">
+    <test-case start="1568259019213" status="passed" stop="1568259019214">
       <name>Test.test002</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3092-MainThread"/>
+        <label name="thread" value="308-MainThread"/>
         <label name="host" value="LAPTOP-MME9N47P"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1568258509368" status="failed" stop="1568258509452">
+    <test-case start="1568259019215" status="failed" stop="1568259019279">
       <name>Test.test003</name>
       <failure>
         <message>AssertionError: assert 0</message>
-        <stack-trace>self = &lt;test01.Test object at 0x03A9D050&gt;
+        <stack-trace>self = &lt;test01.Test object at 0x03C7B050&gt;
 
     def test003(self):
         print("test003被执行")
@@ -43,7 +43,7 @@ scripts\test01.py:11: AssertionError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3092-MainThread"/>
+        <label name="thread" value="308-MainThread"/>
         <label name="host" value="LAPTOP-MME9N47P"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>

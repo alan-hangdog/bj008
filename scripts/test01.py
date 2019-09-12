@@ -9,3 +9,5 @@ class Test:
         print("test003被执行")
         # 断言失败
         assert 0
+
+# https://github.com/alan-hangdog/bj008.git
